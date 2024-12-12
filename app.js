@@ -10,6 +10,7 @@ const flash = require("connect-flash");
 const categoryRouter = require("./app/category/router");
 const dashboardRouter = require("./app/dashboard/router");
 const nominalRouter = require("./app/nominal/router");
+const voucherRouter = require("./app/voucher/router");
 
 var app = express();
 
@@ -44,6 +45,7 @@ app.use(
 app.use("/", dashboardRouter);
 app.use("/category", categoryRouter);
 app.use("/nominal", nominalRouter);
+app.use("/voucher", voucherRouter);
 
 app.use(function (req, res, next) {
   next(createError(404));

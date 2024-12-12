@@ -1,4 +1,3 @@
-const { activeEdit } = require("../category/controller");
 const Nominal = require("./model");
 
 module.exports = {
