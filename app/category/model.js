@@ -5,4 +5,4 @@ let categorySchema = mongoose.Schema({
     required: [true, "Nama Kategori wajib diisi"],
   },
 });
-module.exports = mongoose.model("Category", categorySchema);
+module.exports = mongoose.model("category", categorySchema);
