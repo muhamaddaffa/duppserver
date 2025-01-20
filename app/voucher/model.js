@@ -21,7 +21,7 @@ let voucherSchema = mongoose.Schema({
     ref: "category",
   },
 
-  nominal: [
+  nominals: [
     {
       type: mongoose.Schema.Types.ObjectId,
       ref: "nominal",

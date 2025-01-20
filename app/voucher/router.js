@@ -11,7 +11,7 @@ const {
 
 router.get("/", index);
 router.get("/create", viewCreate);
-// router.post("/create", activeCategory);
+router.post("/create", activeCategory);
 // router.get("/edit/:id", viewEdit);
 // router.put("/edit/:id", activeEdit);
 // router.delete("/delete/:id", activeDelete);
